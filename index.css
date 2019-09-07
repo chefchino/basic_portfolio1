@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    position: relative;
+    font-size: 30px;
+    background-color: #4aaaa5;
+    color: whitesmoke;
+    top: 0;
+    left: 0;
+    width: 320px;
+
+}
+
+.wrapper{
+    height:960px;
+    width: 960px;
+}
+
+#contact{
+    font-size:20px;
+    color: grey;
+    float: right;
+
+}
+
+#portfolio{
+    font-size:20px;
+    color: grey;
+    float: right:
+
+}
+
+#index{
+    font-size:20px;
+    color: grey;
+    float: right;
+}
+
+
