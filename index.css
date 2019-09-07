@@ -1,14 +1,17 @@
 *{
     box-sizing: border-box;
 }
+body{
+    margin:40px;
+}
 
 header{
     position: relative;
     font-size: 30px;
     background-color: #4aaaa5;
     color: whitesmoke;
-    top: 0;
-    left: 0;
+    top: 30px;
+    left: 70px;
     width: 320px;
 
 }
@@ -17,25 +20,28 @@ header{
     height:960px;
     width: 960px;
 }
+    .links{
+        position:relative;
+        font-size:16px;
+        float: right;
+    }
 
-#contact{
-    font-size:20px;
-    color: grey;
-    float: right;
-
-}
-
-#portfolio{
-    font-size:20px;
-    color: grey;
-    float: right:
+#contact:hover{    
+    color:purple;
 
 }
 
-#index{
-    font-size:20px;
-    color: grey;
-    float: right;
+#portfolio:hover{
+    color:purple;
+
 }
 
+#index:hover{
+    color:purple;
+
+}
+h1{
+    margin-top:50px;
+    color: #4aaaa5;
+}
 
