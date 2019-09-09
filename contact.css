@@ -16,6 +16,30 @@ body{
     height:100px;
 }
 
+#contact{   
+    padding-left: 15px; 
+    color:lightgray;
+
+}
+
+
+#portfolio{
+    padding-left: 15px;
+    padding-right: 15px;
+    color:lightgrey;
+    border-left: solid;
+    border-right:solid;
+    border-color: lightgray;
+    border-width:1px;
+
+}
+
+#index{
+    padding-right: 15px;
+    color:lightgray;
+
+}
+
 h1{
     position: absolute;
     margin: 0, auto;
@@ -43,12 +67,33 @@ h1{
     
 }
   
+input[type=text], select,textarea{
+    width: 100%;
+    padding:12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom:16px;
+    resize: vertical;
+}
+
+input[type=submit]{
+    background-color:green;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+background-color: lightgreen;
+
+}
 
 .container{
     clear: both;
-    position: static;
+    position: relative;
     /* margin-left:80px; */
-    padding-top: 30px;
+    /* padding-top: 30px; */
     height:550px;
     width:800;
     background-color: lightgrey;
@@ -57,74 +102,44 @@ h1{
     border-width:10px;
 
 
+}
 
+#marble{
+    height:100%;
+    width:100%;
+    top: 0;
 }
 .wrapper{
+    position: absolute;
     margin-left: 240px;
-    
     /* padding-top:20px; */
-    height:350px;
+    height:500px;
     width: 960px;
     background-color: #ffffff;
-
-}
-
-
-#contact{   
-    padding-left: 15px; 
-    color:lightgray;
-
-}
-
-
-#portfolio{
-    padding-left: 15px;
-    padding-right: 15px;
-    color:lightgrey;
-    border-left: solid;
-    border-right:solid;
-    border-color: lightgray;
-    border-width:1px;
-
-}
-
-#index{
-    padding-right: 15px;
-    color:lightgray;
+    top: 0;
+    padding:20px;
 
 }
 h2{
     color: #4aaaa5;
-    padding-left:40px;
-    padding-top: 10px;
+    padding-left:30px;
+    /* padding-top: 10px; */
     text-align: left;
 }
-.content{
-    position:relative;
-    width:870px;
-    border-top: solid;
-    border-color:#dddddd;
-    border-width: 1px;
-    margin-left: 40px;
-    padding-top:20px;
+
+.row{
+    position: relative;
+    height:400px;
+    width:900px;
+    /* background-color:green; */
+    padding:10px;
 
 }
-img{
-    margin-left:0px;
-    height: 200px;
-    width: 300px;
-    float: left;
+.column{
+    margin-left:40px;
+    width: 90%;
+    margin-top: 12px;
+    padding:10px;
+    /* background-color: blue; */
 }
-p{  
-    margin-left: 30px;
-    width:520px;
-    float: left;
-}
-footer{
-    clear: both;
-    display: block;
-    height:50px;
-    background-color: #666666;
-}
-
 

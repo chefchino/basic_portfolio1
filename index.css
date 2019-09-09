@@ -46,9 +46,9 @@ h1{
 
 .container{
     clear: both;
-    position: static;
+    position: relative;
     /* margin-left:80px; */
-    padding-top: 30px;
+    /* padding-top: 30px; */
     height:550px;
     width:800;
     background-color: lightgrey;
@@ -57,15 +57,23 @@ h1{
     border-width:10px;
 
 
+}
+
+#marble{
+    height:100%;
+    width:100%;
+    top: 0;
+
 
 }
 .wrapper{
+    position: absolute;
     margin-left: 240px;
-    
     /* padding-top:20px; */
-    height:350px;
+    height:450px;
     width: 960px;
     background-color: #ffffff;
+    top: 0;
 
 }
 
@@ -109,7 +117,7 @@ h2{
     padding-top:20px;
 
 }
-img{
+#otter{
     margin-left:0px;
     height: 200px;
     width: 300px;
