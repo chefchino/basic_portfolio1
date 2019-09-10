@@ -3,10 +3,7 @@
 }
 body{
     background-color: white;
-    margin:40px;
-    /* border-right: solid;
-    border-left: solid;
-    border-color: green;
+    /* border-color: ;
     border-width: 1px; */
 }
 .top-box{
@@ -22,12 +19,13 @@ h1{
     font-size: 30px;
     background-color: #4aaaa5;
     color: whitesmoke;
-    top: 40px;
-    left: 280px;
+    top: 10px;
+    left: 250px;
     width: 400px;
     height: 80px;
     text-align: center;
     padding:22px;
+    /* padding-left:10px; */
 
 
 }
@@ -49,7 +47,7 @@ h1{
     position: relative;
     /* margin-left:80px; */
     /* padding-top: 30px; */
-    height:550px;
+    height:570px;
     width:800;
     background-color: lightgrey;
     border-bottom: solid;

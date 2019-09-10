@@ -3,7 +3,7 @@
 }
 body{
     background-color: white;
-    margin:40px;
+    /* margin:40px; */
 
 }
 .top-box{
@@ -19,8 +19,8 @@ h1{
     font-size: 30px;
     background-color: #4aaaa5;
     color: whitesmoke;
-    top: 40px;
-    left: 280px;
+    top: 10px;
+    left: 250px;
     width: 400px;
     height: 80px;
     text-align: center;
@@ -90,6 +90,7 @@ h1{
 
     .row {
         position: relative;
+        width: 960;
 
     }
 
@@ -260,12 +261,12 @@ h1{
 
 footer{
     position:fixed;
-    width:100%;
-    left: 0;
+    width:98.99%;
+    /* left: 39px; */
     bottom:0;
     height:50px;
     background-color: #666666;
-    border-top:7px solid #4aaaa5;
+    border-top:10px solid #4aaaa5;
 }
 
 
