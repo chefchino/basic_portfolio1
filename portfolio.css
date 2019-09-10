@@ -19,7 +19,7 @@ h1{
     font-size: 30px;
     background-color: #4aaaa5;
     color: whitesmoke;
-    top: 10px;
+    top: 8px;
     left: 250px;
     width: 400px;
     height: 80px;
@@ -64,13 +64,14 @@ h1{
     .wrapper{
         position: absolute;
         margin-left: 240px;
-        margin-top:180px;
+        margin-top:150px;
         /* padding-top:20px; */
         height:745px;
         width: 960px;
         background-color: #ffffff;
         top: 0;
         padding-left:20px;
+        border:1px solid lightgrey;
         /* padding:10px; */
     
     
@@ -91,9 +92,13 @@ h1{
     .row {
         position: relative;
         width: 960;
+        /* border-top: solid;
+        border-color:#dddddd;
+        border-width: 1px; */
+        /* background-color: green; */
 
     }
-
+   
     img{
         height:200px;
         width:200px;
@@ -112,7 +117,7 @@ h1{
 #portfolio{
     padding-left: 15px;
     padding-right: 15px;
-    color: grey;
+    color: lightgrey;
     border-left: solid;
     border-right:solid;
     border-color: lightgray;
@@ -122,12 +127,12 @@ h1{
 
 #index{
     padding-right: 15px;
-    color:gray;
+    color:lightgrey;
 
 }
 #contact{
-    /* padding-left: 15px; */
-    color:gray;
+    padding-left: 15px;
+    color:lightgrey;
 
 }
 .icon1{
@@ -203,10 +208,10 @@ h1{
 .column2{
     flex: 50%;
     padding: 0 4px;
-    width:75%;
+    width:60%;
     /* margin:20px; */
     position: absolute;
-    right:0;
+    right:100px;
     text-align: center;
     /* background-color: green; */
     

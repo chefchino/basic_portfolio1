@@ -53,7 +53,7 @@ h1{
     border-bottom: solid;
     border-color: #4aaaa5;
     border-width:10px;
-    border-top: 1px solid lightgrey;
+
 
 }
 
@@ -80,7 +80,7 @@ h1{
 
 #contact{   
     padding-left: 15px; 
-    color:grey;
+    color:lightgrey;
 
 }
 
@@ -88,7 +88,7 @@ h1{
 #portfolio{
     padding-left: 15px;
     padding-right: 15px;
-    color:grey;
+    color:lightgrey;
     border-left: solid;
     border-right:solid;
     border-color: lightgrey;
@@ -98,7 +98,7 @@ h1{
 
 #index{
     padding-right: 15px;
-    color:grey;
+    color:lightgrey;
 
 }
 h2{
