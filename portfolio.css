@@ -49,7 +49,7 @@ h1{
     position: static;
     /* margin-left:80px; */
     /* padding-top: 30px; */
-    height:750px;
+    height:850px;
     width:800;
     background-color: lightgrey;
     border-bottom: solid;
@@ -69,7 +69,7 @@ h1{
         margin-left: 240px;
         margin-top:180px;
         /* padding-top:20px; */
-        height:680px;
+        height:745px;
         width: 960px;
         background-color: #ffffff;
         top: 0;
@@ -91,37 +91,40 @@ h1{
         border-bottom:1 solid lightgrey;
     }
 
-    .row{
-        /* border-top: 1px solid lightgrey; */
+    .row {
+        position: relative;
+        /* border-top: 1px solid lightgrey;
         margin-left:130px;
         /* background-color: blue; */
-        width:600px;
+        /* width:600px;
         height:80%;
             display: flex;
             flex-wrap: wrap;
-            padding: 0 4px;
+            padding: 0 4px; */ 
     }
 
     img{
         height:200px;
         width:200px;
     }
-    .column {
+    .column1 {
         flex: 50%;
         padding: 0 4px;
-        width:500px;
+        width:50%;
         /* margin:20px; */
-        position: relative;
+        position: absolute;
+        left:0;
         text-align: center;
+        background-color: white;
         
       }
       
       
-      .column img {
+      /* .column img {
         margin-top: 8px;
         vertical-align: middle;
         padding:20px;
-      }
+      } */
 /* #contact{   
     padding-left: 15px; 
     color:gray;
@@ -150,74 +153,123 @@ h1{
     color:gray;
 
 }
-.htext{
+.icon1{
+    position: relative;
+    margin:10px;
+    border: 1px solid lightgrey;
+}
+.hangman{
+    height: 200px;
+    width:200px;
+}
+.textblock1{
+        position: absolute;
         background-color: #4aaaa5;
         color:white;
-        position: absolute;
         font-weight:bolder;
-        padding-top:7px;
+        padding: 10px;
         height: 40px;
-        width:195px;
-        top:150px;
+        width:199px;
+        top:70%;
         left: 50%;
-        transform: translate(-50%, -50%);
-      
+        transform: translate(-50%, -50%);  
 }
-
-.ttext{
+.icon2{
+    position: relative;
+    margin:10px;
+    border: 1px solid lightgrey;
+}
+.trivia{
+    height: 200px;
+    width:200px;
+}
+.textblock2{
+        position: absolute;
         background-color: #4aaaa5;
         color:white;
-        position: absolute;
         font-weight:bolder;
-        padding-top:7px;
+        padding-bottom: 10px;
         height: 40px;
-        width:195px;
-        top:150px;
+        width:199px;
+        top:70%;
         left: 50%;
-        transform: translate(-50%, -50%);
-
+        transform: translate(-50%, -50%);  
 }
-
-.rpstext{
+.icon3{
+    position: relative;
+    margin:10px;
+    border: 1px solid lightgrey;
+}
+.rps{
+    height: 200px;
+    width:200px;
+}
+.textblock3{
+        position: absolute;
         background-color: #4aaaa5;
         color:white;
-        position: absolute;
         font-weight:bolder;
-        padding-top:7px;
+        padding: 10px;
         height: 40px;
-        width:195px;
-        top:150px;
+        width:199px;
+        top:70%;
         left: 50%;
-        transform: translate(-50%, -50%);
-
+        transform: translate(-50%, -50%);  
 }
+.column2{
+    flex: 50%;
+    padding: 0 4px;
+    width:50%;
+    /* margin:20px; */
+    position: absolute;
+    right:0;
+    text-align: center;
+    background-color: white;
+    
+  }
 
-.rpgtext{
-        background-color: #4aaaa5;
-        color:white;
-        position: absolute;
-        font-weight:bolder;
-        padding-top:7px;
-        height: 40px;
-        width:195px;
-        top:150px;
-        left: 50%;
-        transform: translate(-50%, -50%);
-}
-
-.rtext{
-        background-color: #4aaaa5;
-        color:white;
-        position: absolute;
-        font-weight:bolder;
-        padding-top:7px;
-        height: 40px;
-        width:195px;
-        top:150px;
-        left: 50%;
-        transform: translate(-50%, -50%);
-}
-
+      .icon4{
+        position: relative;
+        margin:10px;
+        border: 1px solid lightgrey;
+    }
+    .rpg{
+        height: 200px;
+        width:200px;
+    }
+    .textblock4{
+            position: absolute;
+            background-color: #4aaaa5;
+            color:white;
+            font-weight:bolder;
+            padding: 10px;
+            height: 40px;
+            width:199px;
+            top:70%;
+            left: 50%;
+            transform: translate(-50%, -50%);  
+    }
+    .icon5{
+        position: relative;
+        margin:10px;
+        border: 1px solid lightgrey;
+    }
+    .rutgers{
+        height: 200px;
+        width:200px;
+    }
+    .textblock5{
+            position: absolute;
+            background-color: #4aaaa5;
+            color:white;
+            font-weight:bolder;
+            padding: 10px;
+            height: 40px;
+            width:199px;
+            top:70%;
+            left: 50%;
+            transform: translate(-50%, -50%);  
+    }
 
 footer{
     
