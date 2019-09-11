@@ -18,7 +18,7 @@ h1{
     margin: 0, auto;
     font-size: 30px;
     background-color: #4aaaa5;
-    color: whitesmoke;
+    color:lightgoldenrodyellow;
     top: 8px;
     left: 250px;
     width: 400px;
@@ -49,9 +49,9 @@ h1{
     height:850px;
     width:800;
     background-color: lightgrey;
-    border-bottom: solid;
+    /* border-bottom: solid;
     border-color: #4aaaa5;
-    border-width:10px;
+    border-width:10px; */
 
 }
     #marble {
@@ -78,7 +78,7 @@ h1{
     }
     .head{
         /* background-color: lightblue; */
-        border-bottom: 1px solid lightgrey;
+        /* border-bottom: 1px solid lightgrey; */
         margin-right: 5px;
     }
     h2{
@@ -86,17 +86,22 @@ h1{
         padding-left:30px;
         /* padding-top: 10px; */
         text-align: left;
-        border-bottom:1 solid lightgrey;
+        /* border-bottom:1 solid lightgrey; */
     }
 
-    .row {
+    .row1 {
         position: relative;
-        width: 960;
-        /* border-top: solid;
+        width: 870;
+        border-top: solid;
         border-color:#dddddd;
-        border-width: 1px; */
+        border-width: 1px;
+        margin-right: 10px;
         /* background-color: green; */
 
+    }
+    .row{
+        position: relative;
+        width:960;
     }
    
     img{
@@ -116,7 +121,7 @@ h1{
 
 }
 #portfolio:hover{
-    color:grey;    
+    color:#6DF7F0;    
 }
 
 #index{
@@ -125,7 +130,7 @@ h1{
 
 }
 #index:hover{
-    color:grey;
+    color:#6DF7F0;
 }
 #contact{
     padding-left: 15px;
@@ -133,7 +138,7 @@ h1{
 
 }
 #contact:hover{
-    color:grey;
+    color:#6DF7F0;
 }
 .icon1{
     position: relative;
@@ -149,7 +154,7 @@ h1{
 .textblock1{
         position: absolute;
         background-color: #4aaaa5;
-        color:white;
+        color:#F7DC60;
         font-weight:bolder;
         padding: 10px;
         height: 40px;
@@ -157,6 +162,9 @@ h1{
         top:70%;
         left: 50%;
         transform: translate(-50%, -50%);  
+}
+.textblock1:hover{
+        color:#C439AE;
 }
 .icon2{
     position: relative;
@@ -172,7 +180,7 @@ h1{
 .textblock2{
         position: absolute;
         background-color: #4aaaa5;
-        color:white;
+        color:#DE534B;
         font-weight:bolder;
         padding-top: 10px;
         height: 40px;
@@ -181,6 +189,10 @@ h1{
         left: 50%;
         transform: translate(-50%, -50%);  
         /* text-align: center; */
+}
+
+.textblock2:hover{
+        color:#296DAB;
 }
 .icon3{
     position: relative;
@@ -196,7 +208,7 @@ h1{
 .textblock3{
         position: absolute;
         background-color: #4aaaa5;
-        color:white;
+        color:#F7DC60;
         font-weight:bolder;
         padding: 10px;
         height: 40px;
@@ -204,6 +216,9 @@ h1{
         top:70%;
         left: 50%;
         transform: translate(-50%, -50%);  
+}
+.textblock3:hover{
+        color:#C439AE;
 }
 .col-md-4{
     float: left;
@@ -227,14 +242,19 @@ h1{
     .textblock4{
             position: absolute;
             background-color: #4aaaa5;
-            color:white;
+            color:#DE534B;
             font-weight:bolder;
             padding: 10px;
             height: 40px;
             width:199px;
             top:70%;
             left: 50%;
+            text-align:center;
             transform: translate(-50%, -50%);  
+    }
+
+    .textblock4:hover{
+        color:#296DAB;
     }
     .icon5{
         position: relative;
@@ -250,7 +270,7 @@ h1{
     .textblock5{
             position: absolute;
             background-color: #4aaaa5;
-            color:white;
+            color:#F7DC60;
             font-weight:bolder;
             padding: 10px;
             height: 40px;
@@ -258,6 +278,9 @@ h1{
             top:70%;
             left: 50%;
             transform: translate(-50%, -50%);  
+    }
+.textblock5:hover{
+        color:#C439AE;
     }
 
 footer{
@@ -267,7 +290,7 @@ footer{
     bottom:0;
     height:50px;
     background-color: #666666;
-    border-top:10px solid #4aaaa5;
+    border-top:8px solid #4aaaa5;
 }
 
 

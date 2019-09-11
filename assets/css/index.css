@@ -18,7 +18,7 @@ h1{
     margin: 0, auto;
     font-size: 30px;
     background-color: #4aaaa5;
-    color: whitesmoke;
+    color: lightgoldenrodyellow;
     top: 8px;
     left: 250px;
     width: 400px;
@@ -50,9 +50,9 @@ h1{
     height:570px;
     width:800;
     background-color: lightgrey;
-    border-bottom: solid;
+    /* border-bottom: solid;
     border-color: #4aaaa5;
-    border-width:10px;
+    border-width:10px; */
 
 
 }
@@ -84,7 +84,7 @@ h1{
 
 }
 #contact:hover{
-    color:grey;
+    color:#6DF7F0;
 }
 
 
@@ -99,7 +99,7 @@ h1{
 
 }
 #portfolio:hover{
-    color:grey;
+    color:#6DF7F0;
 }
 
 #index{
@@ -108,7 +108,7 @@ h1{
 
 }
 #index:hover{
-    color:grey;
+    color:#6DF7F0;
 }
 h2{
     color: #4aaaa5;
@@ -118,11 +118,11 @@ h2{
 }
 .content{
     position:relative;
-    width:870px;
+    width:900px;
     border-top: solid;
     border-color:#dddddd;
     border-width: 1px;
-    margin-left: 40px;
+    margin-left: 35px;
     padding-top:20px;
 
 }
@@ -146,6 +146,6 @@ footer{
     bottom:0;
     height:50px;
     background-color: #666666;
-    border-top:10px solid #4aaaa5;
+    border-top:8px solid #4aaaa5;
 }
 

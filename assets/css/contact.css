@@ -24,7 +24,7 @@ body{
 
 }
 #contact:hover{
-    color:grey;
+    color:#6DF7F0;
 }
 
 
@@ -40,7 +40,7 @@ body{
 }
 
 #portfolio:hover{
-    color:grey;
+    color:#6DF7F0;
 }
 #index{
     padding-right: 15px;
@@ -48,7 +48,7 @@ body{
 
 }
 #index:hover{
-    color:grey;
+    color:#6DF7F0;
 }
 
 h1{
@@ -57,7 +57,7 @@ h1{
     margin: 0, auto;
     font-size: 30px;
     background-color: #4aaaa5;
-    color: whitesmoke;
+    color: lightgoldenrodyellow;
     top: 8px;
     left: 250px;
     width: 400px;
@@ -89,7 +89,7 @@ input[type=text], select,textarea{
 }
 
 input[type=submit]{
-    background-color:green;
+    background-color:#205E5B;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -97,7 +97,7 @@ input[type=submit]{
 }
 
 input[type=submit]:hover{
-background-color: lightgreen;
+background-color: #3AABA5;
 
 }
 
@@ -109,9 +109,9 @@ background-color: lightgreen;
     height:570px;
     width:800;
     background-color: lightgrey;
-    border-bottom: solid;
+    /* border-bottom: solid;
     border-color: #4aaaa5;
-    border-width:10px;
+    border-width:10px; */
 
 
 }
@@ -169,6 +169,6 @@ footer{
     bottom:0;
     height:50px;
     background-color: #666666;
-    border-top:10px solid #4aaaa5;
+    border-top:8px solid #4aaaa5;
 }
 
