@@ -103,16 +103,7 @@ h1{
         height:200px;
         width:200px;
     }
-    .column1 {
-        flex: 50%;
-        padding: 0 4px;
-        width:25%;
-        /* margin:20px; */
-        position: absolute;
-        left:0;
-        text-align: center;
-        /* background-color: blue; */
-      }
+
 
 #portfolio{
     padding-left: 15px;
@@ -183,7 +174,7 @@ h1{
         background-color: #4aaaa5;
         color:white;
         font-weight:bolder;
-        /* padding-bottom: 10px; */
+        padding-top: 10px;
         height: 40px;
         width:199px;
         top:70%;
@@ -214,17 +205,13 @@ h1{
         left: 50%;
         transform: translate(-50%, -50%);  
 }
-.column2{
-    flex: 50%;
-    padding: 0 4px;
-    width:60%;
-    /* margin:20px; */
-    position: absolute;
-    right:100px;
+.col-md-4{
+    float: left;
+}
+.row{
+    clear: both;
     text-align: center;
-    /* background-color: green; */
-    
-  }
+}
 
       .icon4{
         position: relative;
