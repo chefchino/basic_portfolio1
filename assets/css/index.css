@@ -83,6 +83,9 @@ h1{
     color:lightgrey;
 
 }
+#contact:hover{
+    color:grey;
+}
 
 
 #portfolio{
@@ -95,11 +98,17 @@ h1{
     border-width:1px;
 
 }
+#portfolio:hover{
+    color:grey;
+}
 
 #index{
     padding-right: 15px;
     color:lightgrey;
 
+}
+#index:hover{
+    color:grey;
 }
 h2{
     color: #4aaaa5;
@@ -130,9 +139,13 @@ p{
 }
 footer{
     clear: both;
-    display: block;
+    display:block;
+    position:fixed;
+    width:98.99%;
+    /* left: 39px; */
+    bottom:0;
     height:50px;
     background-color: #666666;
+    border-top:10px solid #4aaaa5;
 }
-
 

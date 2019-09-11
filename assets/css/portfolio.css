@@ -124,16 +124,25 @@ h1{
     border-width:1px;
 
 }
+#portfolio:hover{
+    color:grey;    
+}
 
 #index{
     padding-right: 15px;
     color:lightgrey;
 
 }
+#index:hover{
+    color:grey;
+}
 #contact{
     padding-left: 15px;
     color:lightgrey;
 
+}
+#contact:hover{
+    color:grey;
 }
 .icon1{
     position: relative;
@@ -174,7 +183,7 @@ h1{
         background-color: #4aaaa5;
         color:white;
         font-weight:bolder;
-        padding-bottom: 10px;
+        /* padding-bottom: 10px; */
         height: 40px;
         width:199px;
         top:70%;

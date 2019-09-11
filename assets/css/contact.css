@@ -23,6 +23,9 @@ body{
     color:lightgrey;
 
 }
+#contact:hover{
+    color:grey;
+}
 
 
 #portfolio{
@@ -36,10 +39,16 @@ body{
 
 }
 
+#portfolio:hover{
+    color:grey;
+}
 #index{
     padding-right: 15px;
     color:lightgrey;
 
+}
+#index:hover{
+    color:grey;
 }
 
 h1{
@@ -93,7 +102,7 @@ background-color: lightgreen;
 }
 
 .container{
-    clear: both;
+    /* clear: both; */
     position: relative;
     /* margin-left:80px; */
     /* padding-top: 30px; */
@@ -154,11 +163,12 @@ h2{
 }
 
 footer{
-    
-    /* clear: both; */
-    display: block;
+    position:fixed;
+    width:98.99%;
+    /* left: 39px; */
+    bottom:0;
     height:50px;
     background-color: #666666;
+    border-top:10px solid #4aaaa5;
 }
-
 
