@@ -113,7 +113,7 @@ h1{
 #portfolio{
     padding-left: 15px;
     padding-right: 15px;
-    color: lightgrey;
+    color: grey;
     border-left: solid;
     border-right:solid;
     border-color: lightgray;
@@ -126,7 +126,7 @@ h1{
 
 #index{
     padding-right: 15px;
-    color:lightgrey;
+    color:grey;
 
 }
 #index:hover{
@@ -134,7 +134,7 @@ h1{
 }
 #contact{
     padding-left: 15px;
-    color:lightgrey;
+    color:grey;
 
 }
 #contact:hover{
@@ -156,10 +156,11 @@ h1{
         background-color: #4aaaa5;
         color:#F7DC60;
         font-weight:bolder;
+        text-align:center;
         padding: 10px;
         height: 40px;
         width:199px;
-        top:70%;
+        top:85%;
         left: 50%;
         transform: translate(-50%, -50%);  
 }
@@ -185,10 +186,10 @@ h1{
         padding-top: 10px;
         height: 40px;
         width:199px;
-        top:70%;
+        top:85%;
         left: 50%;
         transform: translate(-50%, -50%);  
-        /* text-align: center; */
+        text-align: center;
 }
 
 .textblock2:hover{
@@ -213,9 +214,10 @@ h1{
         padding: 10px;
         height: 40px;
         width:199px;
-        top:70%;
+        top:85%;
         left: 50%;
-        transform: translate(-50%, -50%);  
+        transform: translate(-50%, -50%); 
+        text-align: center; 
 }
 .textblock3:hover{
         color:#C439AE;
@@ -247,7 +249,7 @@ h1{
             padding: 10px;
             height: 40px;
             width:199px;
-            top:70%;
+            top:85%;
             left: 50%;
             text-align:center;
             transform: translate(-50%, -50%);  
@@ -275,7 +277,7 @@ h1{
             padding: 10px;
             height: 40px;
             width:199px;
-            top:70%;
+            top:85%;
             left: 50%;
             transform: translate(-50%, -50%);  
     }

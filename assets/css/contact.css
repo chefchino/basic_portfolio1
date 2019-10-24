@@ -20,7 +20,7 @@ body{
 
 #contact{   
     padding-left: 15px; 
-    color:lightgrey;
+    color:grey;
 
 }
 #contact:hover{
@@ -31,7 +31,7 @@ body{
 #portfolio{
     padding-left: 15px;
     padding-right: 15px;
-    color:lightgrey;
+    color:grey;
     border-left: solid;
     border-right:solid;
     border-color: lightgray;
@@ -44,7 +44,7 @@ body{
 }
 #index{
     padding-right: 15px;
-    color:lightgrey;
+    color:grey;
 
 }
 #index:hover{

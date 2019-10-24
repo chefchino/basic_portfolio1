@@ -80,7 +80,7 @@ h1{
 
 #contact{   
     padding-left: 15px; 
-    color:lightgrey;
+    color:grey;
 
 }
 #contact:hover{
@@ -91,7 +91,7 @@ h1{
 #portfolio{
     padding-left: 15px;
     padding-right: 15px;
-    color:lightgrey;
+    color:grey;
     border-left: solid;
     border-right:solid;
     border-color: lightgrey;
@@ -104,7 +104,7 @@ h1{
 
 #index{
     padding-right: 15px;
-    color:lightgrey;
+    color:grey;
 
 }
 #index:hover{
