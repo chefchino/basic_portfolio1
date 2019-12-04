@@ -3,8 +3,6 @@
 }
 body{
     background-color: white;
-    /* border-color: ;
-    border-width: 1px; */
 }
 .top-box{
     position: static;
@@ -25,9 +23,6 @@ h1{
     height: 80px;
     text-align: center;
     padding:22px;
-    /* padding-left:10px; */
-
-
 }
 
 .links{
@@ -45,16 +40,9 @@ h1{
 .container{
     clear: both;
     position: relative;
-    /* margin-left:80px; */
-    /* padding-top: 30px; */
     height:570px;
     width:800;
     background-color: lightgrey;
-    /* border-bottom: solid;
-    border-color: #4aaaa5;
-    border-width:10px; */
-
-
 }
 
 #marble{
@@ -66,9 +54,8 @@ h1{
 }
 .wrapper{
     position: absolute;
-    margin-left: 240px;
+    margin-left: 70px;
     margin-top:40px;
-    /* padding-top:20px; */
     height:450px;
     width: 960px;
     background-color: #ffffff;
@@ -142,7 +129,6 @@ footer{
     display:block;
     position:fixed;
     width:98.99%;
-    /* left: 39px; */
     bottom:0;
     height:50px;
     background-color: #666666;

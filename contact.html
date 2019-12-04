@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Contact Information</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
     </head>
     <body>
@@ -21,14 +22,14 @@
 
     <div class="row">
         <div class="column">
-            <form action="mailto:chefchino@live.com" method="post" enctype="text/plain">
+            <form action="mailto:chefchino@live.com" method="post" enctype="multipart/form-data">
             <label for="fullname">Full Name</label>
             <input type="text" id="fullname" name="fullname" placeholder="Your Name">
             <label for="email">Email</label>
             <input type="text" id="email" name="Email" placeholder="Your E-mail">
             <label for="subject">Comments</label>
             <textarea id="subject" name="subject" placeholder="Write Something..." style= "height:100px;"></textarea>
-            <input type="submit" value="Submit">
+            <input type="submit" id= button value="Submit">
             </form>
         </div>
     </div>
