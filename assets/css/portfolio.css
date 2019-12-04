@@ -149,7 +149,7 @@ h1{
 .textblock1{
         position: absolute;
         background-color: #4aaaa5;
-        color:#F7DC60;
+        color:#DE534B;
         font-weight:bolder;
         text-align:center;
         padding: 10px;
@@ -236,7 +236,7 @@ h1{
     .textblock4{
             position: absolute;
             background-color: #4aaaa5;
-            color:#DE534B;
+            color:#F7DC60;
             font-weight:bolder;
             padding: 10px;
             height: 40px;
@@ -263,13 +263,14 @@ h1{
     .textblock5{
             position: absolute;
             background-color: #4aaaa5;
-            color:#F7DC60;
+            color:#DE534B;
             font-weight:bolder;
             padding: 10px;
             height: 40px;
             width:199px;
             top:85%;
             left: 50%;
+            text-align: center;
             transform: translate(-50%, -50%);  
     }
 .textblock5:hover{
