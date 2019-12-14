@@ -48,7 +48,6 @@ body{
 }
 
 h1{
-    font-family: times;
     position: absolute;
     margin: 0, auto;
     font-size: 30px;
@@ -60,8 +59,6 @@ h1{
     height: 80px;
     text-align: center;
     padding:22px;
-
-
 }
 
 .links{
@@ -121,8 +118,11 @@ background-color: #3AABA5;
 }
 h2{
     color: #4aaaa5;
+    padding-top: 10px;
     padding-left:30px;
+    padding-bottom:10px;
     text-align: left;
+    border-bottom: 1px solid lightgrey;
 }
 
 .row{
@@ -130,11 +130,6 @@ h2{
     height:350px;
     width:900px;
     padding:10px;
-    border-top: solid;
-    border-color:#dddddd;
-    border-width: 1px;
-
-
 }
 .column{
     margin-left:40px;
