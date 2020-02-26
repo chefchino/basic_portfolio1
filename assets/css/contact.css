@@ -99,7 +99,7 @@ border-radius: 20px;
 
 .container{
     position: relative;
-    height:570px;
+    height:970px;
     width:800;
     background-color: lightgrey;
     border-radius: 20px;
@@ -113,7 +113,7 @@ border-radius: 20px;
     position: absolute;
     margin-left: 70px;
     margin-top:40px;
-    height:450px;
+    height:850px;
     width: 960px;
     background-color: #ffffff;
     top: 0;
